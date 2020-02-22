@@ -1,0 +1,25 @@
+{
+  "name": "ICOPool",
+  "version": "1.0.0",
+  "description": "IOT Pool Access and validation system",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Awais",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "exports-loader": "^0.7.0",
+    "lite-server": "^2.3.0",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}

@@ -1,0 +1,140 @@
+/*General*/
+body {
+  overflow: hidden;
+}
+.exempt {
+  overflow: scroll !important;
+}
+
+/*Typography*/
+.heading-main {
+  font-family: "Mandali", sans-serif;
+}
+.heading-sub {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.content-main {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+/*Hero*/
+.hero {
+  height: 100vh;
+  background-color: #fff !important;
+}
+.hero .container {
+  color: #333;
+}
+.hero.var-height {
+  height: auto !important;
+}
+
+/*Buttons*/
+.btn-light {
+  box-shadow: 0px 0px 10px 4px #e1e1e1;
+  -webkit-box-shadow: 0px 0px 10px 4px #e1e1e1;
+  -moz-box-shadow: 0px 0px 10px 4px #e1e1e1;
+  transition: box-shadow 0.2s ease-in !important;
+}
+.btn-light:hover {
+  box-shadow: none;
+}
+
+/*Navigation Bar*/
+.sticky-top {
+  box-shadow: 0px 0px 15px 0px #e1e1e1;
+  -webkitbox-shadow: 0px 0px 15px 0px #e1e1e1;
+  -moz-box-shadow: 0px 0px 15px 0px #e1e1e1;
+}
+
+/*Landing Page*/
+.home {
+  background: url(/Blocks.bc498676.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+/*Join Page*/
+.join img {
+  max-width: 400px;
+  border-radius: 100%;
+  transition: box-shadow 0.3s ease-in;
+  box-shadow: 0px 0px 22px 20px #e1e1e1;
+  -webkit-box-shadow: 0px 0px 22px 20px #e1e1e1;
+  -moz-box-shadow: 0px 0px 22px 20px #e1e1e1;
+}
+.join img:hover {
+  box-shadow: 0px 0px 22px 0px #e1e1e1;
+  -webkit-box-shadow: 0px 0px 22px 0px #e1e1e1;
+  -moz-box-shadow: 0px 0px 22px 0px #e1e1e1;
+}
+
+/*Tokens*/
+.form-body {
+  padding: 20px;
+  box-shadow: 0px 0px 22px 0px #e1e1e1;
+  -webkitbox-shadow: 0px 0px 22px 0px #e1e1e1;
+  -moz-box-shadow: 0px 0px 22px 0px #e1e1e1;
+}
+.tokens img {
+  max-width: 300px;
+  margin: auto;
+}
+
+/*Process*/
+.process {
+  text-align: center;
+}
+.visor {
+  display: none !important;
+}
+.spinner-border.text-primary {
+  width: 8em;
+  height: 8em;
+  margin-bottom: 50px;
+}
+
+/*Submit*/
+.submit .custom-file {
+  margin-bottom: 25px !important;
+}
+.submit img {
+  max-width: 400px;
+}
+
+/*Thank You*/
+.thank-you img {
+  max-width: 400px;
+}
+/*Media Queries*/
+@media only screen and (min-width: 981px) {
+  .navbar-brand {
+    margin-right: 4rem !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1rem !important;
+  }
+  .display-3 {
+    font-size: 2.5rem !important;
+  }
+  .home {
+    background-size: 200px;
+    background-position: top;
+    margin-top: 10px;
+  }
+  .home .col {
+    margin-top: 60px;
+  }
+  #align-not {
+    align-items: start !important;
+  }
+}
+
+
+/*# sourceMappingURL=/custom.496964ab.css.map */
